@@ -4,7 +4,7 @@
 Creation of a library management database using mysql and performing operations on the database using python.
 
 
-## DATABASE SCHEMA:-
+## DATABASE SCHEMA:
 
 1. Admins: attributes: - ids(primary key), name, email, password, mobile_no.
 
@@ -62,7 +62,7 @@ Def connect_to_db(): establishes a connection to the mysql database using the �
 * ‘database(db)’ : ‘database name’   #example= ‘library_management’.
 
 
-## Data Manipulation Functions –
+## Data Manipulation Functions:
 
 * `fetch_data(query)`: Executes a given SQL query and fetches all the resulting rows. It handles database connection and cursor management. 
 
@@ -71,12 +71,12 @@ Def connect_to_db(): establishes a connection to the mysql database using the �
 *  `delete_data(query, data)`: Executes an SQL DELETE query with provided data. It commits the changes to the database.
 
 
-## Display Function – 
+## Display Function:
 
 * `display_results(results)`: Takes a list of rows (results from a query) and prints them in a user-friendly format.
 
 
-## Menu Functions –
+## Menu Functions:
  
  * `main_menu()`: The main program loop. It presents a menu with options to insert, delete, retrieve data, or exit.
 
@@ -87,7 +87,7 @@ Def connect_to_db(): establishes a connection to the mysql database using the �
 * `retrieve_menu()`: Presents a sub-menu for choosing which table to retrieve data from. It constructs the SQL SELECT query and displays the results.
 
 
-##How to Run:
+## How to Run:
 
 1. Install MySQL Connector: `pip install mysql-connector-python` 
 2. Set up MySQL Database: Create a database named `library_manage` and create the necessary tables with appropriate columns and data types. 
@@ -95,4 +95,8 @@ Def connect_to_db(): establishes a connection to the mysql database using the �
 4. Run the Python script: `python your_script_name.py`
 
 
-note: you can add or delete entites in the database and changes can be done to the python script accordingly.
+### note:
+Forks are much appreciated.
+The entities for the database can be added or removed as for the requirements and changes can be done to the python script accordingly.
+
+#### i will also try to upload the GUI for the project as early as possible.
