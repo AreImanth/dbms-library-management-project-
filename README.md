@@ -1,10 +1,10 @@
-# library management project:
+# Library Management Project:
 
 
 Creation of a library management database using mysql and performing operations on the database using python.
 
 
-## DATABASE SCHEMA:
+## Database Schema:
 
 1. Admins: attributes: - ids(primary key), name, email, password, mobile_no.
 
@@ -42,7 +42,7 @@ The following steps are used to connect a python application to database.
 
 ### Syntax for connection object is:
 
-* Connection_object() = mysql.connector.connect(host=<host name>,user=<user name>,password=<db password>,database=<database name>).
+* Connection_object() = mysql.connector.connect(host=<host_name>,user=<user_name>,password=<db_password>,database=<database_name>).
 
 3.	Create the cursor object.
 
@@ -53,7 +53,7 @@ The following steps are used to connect a python application to database.
 
 Def connect_to_db(): establishes a connection to the mysql database using the ‘mysql.connector’ library. It uses the following connection parameters:
 
-* 	‘host’ : ‘host name’   #example= ‘localhost’
+* ‘host’ : ‘host name’   #example= ‘localhost’
 
 * ‘user’ : ’user name’    #example= ‘root’
 
@@ -95,8 +95,7 @@ Def connect_to_db(): establishes a connection to the mysql database using the �
 4. Run the Python script: `python your_script_name.py`
 
 
-### note:
-Forks are much appreciated.
-The entities for the database can be added or removed as for the requirements and changes can be done to the python script accordingly.
-
+### Note:
+1. Forks are much appreciated.
+2. The entities for the database can be added or removed as for the requirements and changes can be done to the python script accordingly.
 #### i will also try to upload the GUI for the project as early as possible.
